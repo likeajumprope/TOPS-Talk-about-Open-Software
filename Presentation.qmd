@@ -12,10 +12,10 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
--   Post Doctoral Fellow at the Donders Institute for Brain, Congition and Behaviour\
+-   Post Doctoral Fellow at the Donders Institute for Brain, Congition and Behaviour, the Netherlands\
 -   Using machine learning models to create normative models on large neuroimaging data sets
 -   Studying computer science\
--   Involved in several open soucre and open science initiatives
+-   Involved in several open source and open science initiatives (OSSIG, DataTalks.club, TOPS, scikit-learn, Brainhack.org, The Turing Way)
 -   Cat lover\
 :::
 
@@ -35,7 +35,7 @@ After completing this lesson, you should be able to:
 
 -   Define open-source software and distinguish it from closed-source software.
 -   List common benefits and challenges to the production of open code and describe how researchers can respond to some of the challenges while maximizing openness when appropriate.
--   Describe the function and purpose of a Software Management Plan, as its utility as a guidebook for everyone involved in a scientific project.
+-   Describe the function and purpose of a Software Management Plan, and its utility as a guidebook for everyone involved in a scientific project.
 
 ## What is Code vs Software? {.incremental .scrollable}
 
@@ -80,7 +80,7 @@ Open-source software:
 :::
 :::
 
-## Principles behind open code - a bit of a manifesto
+## Principles behind open code - a bit of a manifesto {.scrollable}
 
 ::: table_style
 | VALUE                 |                                                                                                                                                                                                                                                                                                                                                                             |
@@ -183,7 +183,7 @@ If not:
 :::
 
 ::: {.column width="70%"}
--   Get a github account.
+-   Get a github account ([Learn how to use git](https://git-course.netlify.app/)).
 -   Make sure your analysis software is numbered, and well documented.
 -   Upload scripts to Github.
 -   Create a short Readme.md, describing the project and the execution of the code.
@@ -263,7 +263,7 @@ The best way to share code.
 </br>
 
 ::: {.incremental style=".mylist"}
--   Making software more open by following the principles has benefits and challenges, which are related. </br>
+-   Making software more open has benefits and challenges, which are related. </br>
 -   Greater benefits typically come with greater challenges.
 -   In most cases, individual scientists and society will both benefit from more open software.
 :::
@@ -274,9 +274,8 @@ Learning Objectives
 
 After completing this lesson, you should be able to:
 
--   Describe the process of using open code and list some key elements of discovering code.
+-   Describe the process of using open code and know some key repositories to find open code.
 -   Describe the four key considerations when assessing open software: functionality, interoperability, security, and licenses.
--   List some common problems that arise when reusing Open Code and best practices to resolve them.
 -   Describe how, where, and under what circumstances one should acknowledge (cite) code.
 
 ## Discovering open code
@@ -402,5 +401,14 @@ What are the two next concrete steps towards making your code (documentation) fo
 
 ## Thank you so much!
 
-[Repo to this presentation]
+</br></br>
+
+[This presentation is reproducible!](https://github.com/likeajumprope/TOPS_talk_open_software)
+
+</br>
+
+My contact information:
+
+- Github, X: (at)likeajumprope
+
 
