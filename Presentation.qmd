@@ -12,11 +12,11 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
--   Post Doctoral Fellow at the Donders Institute for Brain, Congition and Behaviour, the Netherlands\
--   Using machine learning models to create normative models on large neuroimaging data sets
--   Studying computer science\
--   Involved in several open source and open science initiatives (OSSIG, DataTalks.club, TOPS, scikit-learn, Brainhack.org, The Turing Way)
--   Cat lover\
+-   Post Doctoral Fellow at the Donders Institute for Brain, Congition and Behaviour, the Netherlands.\
+-   Using machine learning models to create normative models on large neuroimaging data sets.
+-   Studying computer science.\
+-   Involved in several open source and open science initiatives (OSSIG, DataTalks.club, TOPS, scikit-learn, Brainhack.org, The Turing Way).
+-   Cat lover.\
 :::
 
 ::: {.column width="10%"}
@@ -44,14 +44,14 @@ Code:
 :::
 
 -   structured language.
--   term not necessarily computer-specific
+-   term not necessarily computer-specific.
 -   high level code that a human can understand has to be compiled by a compiler into machine language (low level code) that the computer can understand.
 
 ::: {.fragment .fade-in}
 Software:
 :::
 
--   collection of programs, data, scripts and code that are bundled together and executed together
+-   collection of programs, data, scripts and code that are bundled together and executed together.
 
 ::: {.fragment .fade-in}
 Open-source software:
@@ -68,15 +68,15 @@ Open-source software:
 
 ::: columns
 ::: {.column width="30%"}
-![Ada Lovelace](imgs/Ada_Byron_aged_seventeen.jpg){height="320"}
+![Ada Lovelace (1815-1852)](imgs/Ada_Byron_aged_seventeen.jpg){height="320"}
 :::
 
 ::: {.column width="30%"}
-![Grace Hopper](imgs/Commodore_Grace_M_Hopper_USN.jpg){height="320"}
+![Grace Hopper (1906-1992)](imgs/Commodore_Grace_M_Hopper_USN.jpg){height="320"}
 :::
 
 ::: {.column width="30%"}
-![Margaret Hamilton](imgs/Margaret_Hamilton_restoration.png){height="320"}
+![Margaret Hamilton (born 1936)](imgs/Margaret_Hamilton_restoration.png){height="320"}
 :::
 :::
 
@@ -155,6 +155,8 @@ Benefits:
 -   portfolio
 
 -   results of papers are reproducible
+
+- advancing scientific progress in general
 :::
 
 ::: {.fragment .fade-in}
@@ -406,9 +408,16 @@ What are the two next concrete steps towards making your code (documentation) fo
 [This presentation is reproducible!](https://github.com/likeajumprope/TOPS_talk_open_software)
 
 </br>
+</br>
 
-My contact information:
+```{r, echo=TRUE}
+a = "Thank you!"
+b = "Any Questions?"
 
-- Github, X: (at)likeajumprope
+print(paste(a, b))
+```
 
+::: footer
+Contact me on Github, X: (at)likeajumprope
+::: 
 
