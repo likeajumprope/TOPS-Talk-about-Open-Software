@@ -1,4 +1,4 @@
-# Talk on open software as part of the OLS TOPS NASA Nebula program
+# Presentation on Open Software as Part of the OLS TOPS NASA Nebula Program
 
 This repository contains the slides on Open Sofware that were given as part of the OLS TOPS Nebula program.
 
