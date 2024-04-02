@@ -1,6 +1,7 @@
 # Presentation on Open Software as Part of the OLS TOPS NASA Nebula Program
 
-This repository contains the slides on Open Sofware that were given as part of the OLS TOPS Nebula program.
+This repository contains the [SLIDES](https://htmlpreview.github.io/?https://github.com/likeajumprope/TOPS-Talk-about-Open-Software/blob/main/Presentation.html)
+ on Open Sofware that were given as part of the OLS TOPS Nebula program.
 
 This presentation was created using Quarto and reveal.js in R.
 
@@ -15,4 +16,3 @@ Links:
 
 [OLS Youtube](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA)
 
-[SLIDES](https://htmlpreview.github.io/?https://github.com/likeajumprope/TOPS-Talk-about-Open-Software/blob/main/Presentation.html)
