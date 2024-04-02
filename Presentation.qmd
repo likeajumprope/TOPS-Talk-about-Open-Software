@@ -1,0 +1,406 @@
+---
+title: "Introduction to Open Code"
+author: "Johanna Bayer"
+institute: "Donders Institute for Brain, Cognition and Behaviour"
+format: 
+  revealjs:
+    incremental: true
+    theme: [sky, style.css]
+---
+
+## About myself
+
+::: columns
+::: {.column width="50%"}
+-   Post Doctoral Fellow at the Donders Institute for Brain, Congition and Behaviour\
+-   Using machine learning models to create normative models on large neuroimaging data sets
+-   Studying computer science\
+-   Involved in several open soucre and open science initiatives
+-   Cat lover\
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+![](imgs/Soxi.jpg){width="500"}
+:::
+:::
+
+# Introduction to Open Code
+
+Learning Objectives
+
+After completing this lesson, you should be able to:
+
+-   Define open-source software and distinguish it from closed-source software.
+-   List common benefits and challenges to the production of open code and describe how researchers can respond to some of the challenges while maximizing openness when appropriate.
+-   Describe the function and purpose of a Software Management Plan, as its utility as a guidebook for everyone involved in a scientific project.
+
+## What is Code vs Software? {.incremental .scrollable}
+
+::: {.fragment .fade-in}
+Code:
+:::
+
+-   structured language.
+-   term not necessarily computer-specific
+-   high level code that a human can understand has to be compiled by a compiler into machine language (low level code) that the computer can understand.
+
+::: {.fragment .fade-in}
+Software:
+:::
+
+-   collection of programs, data, scripts and code that are bundled together and executed together
+
+::: {.fragment .fade-in}
+Open-source software:
+:::
+
+-   distributed with its source code without cost, making it available for others to use, modify, and distribute with its original rights and permissions.
+-   often transparently shared in a public repository, and sometimes maintained through collaboration.
+-   the basis for a vast range of research software packages.
+-   is often protected by a license that governs the sharing and the use of the software.
+
+:::
+
+## History of computing
+
+::: columns
+::: {.column width="30%"}
+![Ada Lovelace](imgs/Ada_Byron_aged_seventeen.jpg){height="320"}
+:::
+
+::: {.column width="30%"}
+![Grace Hopper](imgs/Commodore_Grace_M_Hopper_USN.jpg){height="320"}
+:::
+
+::: {.column width="30%"}
+![Margaret Hamilton](imgs/Margaret_Hamilton_restoration.png){height="320"}
+:::
+:::
+
+## Principles behind open code - a bit of a manifesto
+
+::: table_style
+| VALUE                 |                                                                                                                                                                                                                                                                                                                                                                             |
+|------------------|------------------------------------------------------|
+| Transparency          | Whether you are developing software or solving a business problem, we all have access to the information and materials necessary for doing our best work. When these materials are accessible, we can build upon each other's ideas and discoveries. We can make more effective decisions and understand how those decisions affect us.                                     |
+| Collaboration         | When we're free to participate, we can enhance each other's work in unanticipated ways. When we can modify what others have shared, we unlock new possibilities. By initiating new projects together, we can solve problems that no one can solve alone. And when we implement open standards, we enable others to contribute in the future.                                |
+| Share early and often | Rapid prototypes can lead to rapid discoveries. An iterative approach leads to better solutions faster. When you're free to experiment, you can look at problems in new ways and seek answers in new places. You can learn by doing.                                                                                                                                        |
+| Inclusive             | Good ideas can come from anywhere, and the best ideas should win. Only by including diverse perspectives in our conversations can we be certain we've identified the best ideas, and good decision-makers continually seek those perspectives. We may not operate by consensus, but successful work determines which projects gather support and effort from the community. |
+| Community             | Communities form when different people unite around a common purpose. Shared values guide decision making, and community goals supersede individual interests and agendas.                                                                                                                                                                                                  |
+:::
+
+## Types of software - is what I write, software? {.scrollable}
+
+</br> You might have encountered different types of software:
+
+</br>
+
+::: table_style
+| Software type                       | Description                                                                                                                                                                                                                                       | Example                                                                                                   |
+|------------------|----------------------------------|--------------------|
+| General purpose Software            | produced for wide use; can be open or closed                                                                                                                                                                                                      | Linux kernel, GNU userspace, and various Linux and UNIX distributions, Browsers; Android Operating System |
+| Operational/Infrastructure Software | used by data centers and large information technology facilities to provide data services                                                                                                                                                         | APIs, Web Apps                                                                                            |
+| Libraries                           | generic tools for implementing well-known algorithms, providing statistical analysis, or visualization which are incorporated in other software categories; small                                                                                 | sci-kit learn, numpy, pandas, ggplot, etc.                                                                |
+| Modelling and Simulation Software   | implements solutions to mathematical equations given input data and boundary conditions, or infers models from data                                                                                                                               | OpenFoam, Matlab libraries, Stan                                                                          |
+| Analysis Software                   | developed to manipulate measurements or model results to visualize or gain understanding                                                                                                                                                          | R, SPSS,                                                                                                  |
+| Single-Use Utility Software         | written for use in unique instances, such as making a plot for a paper, or manipulating data in a specific way. This code often uses libraries for analysis, plotting, or reading data; gets included into Open Science and Data Management Plans | papers for a plot, data analysis script                                                                   |
+:::
+
+## Exercise: Benefits and challenges of sharing code
+
+::: columns
+::: {.column width="60%"}
+
+::: {.fragment .fade-in}
+Benefits and challenges of sharing code
+:::
+
+::: mylist
+-   What are (general and personal) benefits of sharing code?
+
+-   What are (general and personal) challenges of sharing code
+
+-   If you have shared code already: why?
+
+-   If you have not shared code yet: why not?
+
+-   If you find a challenge of sharing code: Can you come up with a solution?
+:::
+
+:::
+
+::: {.column width="40%"}
+![](imgs/Think_Outside_the_Box_Idea_Flat_Icon_Vector.svg){width="500"}
+:::
+:::
+
+
+
+
+
+## Exercise: Benefits and challenges of sharing code
+
+::: {.fragment .fade-in}
+Benefits:
+:::
+
+::: mylist
+-   papers with code are cited more often
+
+-   increased credibility
+
+-   portfolio
+
+-   results of papers are reproducible
+:::
+
+::: {.fragment .fade-in}
+Challenges:
+:::
+
+::: mylist
+-   maintenance
+
+-   scooping
+
+-   fear of errors in the code
+
+-   more work
+:::
+
+## A simple way of getting started to share your code
+
+Ideally, you have been commiting code and software to git and Github as the project evolves.
+
+If not:
+
+::: columns
+::: {.column width="30%"}
+![](imgs/GitHub_Invertocat_Logo.svg)
+:::
+
+::: {.column width="70%"}
+-   Get a github account.
+-   Make sure your analysis software is numbered, and well documented.
+-   Upload scripts to Github.
+-   Create a short Readme.md, describing the project and the execution of the code.
+-   Add license.
+-   Optional: Share your data if possible (if not, only share code).
+-   [Example](https://github.com/predictive-clinical-neuroscience/HBR_SHASH)
+:::
+:::
+
+## When Not to Share
+
+There are valid reasons that restrict a researcher's ability to share their complete code or software packages. Some of these reasons may include: </br>
+
+-   The code contains personal data.
+
+-   The code incorporates a country's military secrets or its dissemination violates national interests or security concerns.
+
+-   The code incorporates intellectual property or patented data and information.
+
+-   Institutional policies or organizational regulations do not permit the sharing of code.
+
+## Licensing code
+
+Licensing code is a whole can of worms and I am not a lawyer.
+
+When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that specifies otherwise, nobody else can copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation. Once the work has other contributors (each a copyright holder), "nobody" starts including you. <small>[Source](https://choosealicense.com/no-permission/).</small>
+
+Licenses can range from restrictive to liberal (copy-left).
+
+::: table_style
+| Type of license               | Permissions                                                        | Examples             |
+|------------------|-----------------------------------|------------------|
+| Public domain                 | Grants all rights                                                  | CCO                  |
+| Permissive license            | Grants use rights, forbids almost nothing (allows proprietization) | BSD, MIT, Apache     |
+| Copyleft (protective license) | Grants use rights, forbids proprietization                         | GPL, AGPL            |
+| Proprietary license           | Traditional use of copyright; no rights need be granted            | Proprietary software |
+:::
+
+## Software Management plans
+
+The best way to share code.
+
+-   Document that describes how a specific software project is developed, maintained, and curated.
+
+-   Written by the developers, maintainers, and/or other stakeholders of a software project.
+
+    Goal of an SMP is to ensure that the software is usable and maintainable in the long term.
+
+## Software Management plans
+
+![](imgs/Software_Management_plan.png){style="center" width="462"}
+
+::: footer
+<small> [Source: E-Science Center Netherlands](https://zenodo.org/records/7248877) </small>
+:::
+
+## Open code in the time of LLMs
+
+::: columns
+::: {.column width="60%"}
+<br>
+
+-   At the moment, all code on github is being used to train LMMs.
+
+-   [Latest example: The Stack by the HuggingFace](https://huggingface.co/spaces/bigcode/in-the-stack)
+
+-   Feeding code into ChatGPT (unpaid version) incorporates the code into the training data base.
+:::
+
+::: {.column width="40%"}
+![](imgs/AmIinthestack.png){width="500"}
+:::
+:::
+
+## Key Takeaways: Relating Principles to Benefits and Challenges
+
+</br>
+
+::: {.incremental style=".mylist"}
+-   Making software more open by following the principles has benefits and challenges, which are related. </br>
+-   Greater benefits typically come with greater challenges.
+-   In most cases, individual scientists and society will both benefit from more open software.
+:::
+
+# Using Open Code
+
+Learning Objectives
+
+After completing this lesson, you should be able to:
+
+-   Describe the process of using open code and list some key elements of discovering code.
+-   Describe the four key considerations when assessing open software: functionality, interoperability, security, and licenses.
+-   List some common problems that arise when reusing Open Code and best practices to resolve them.
+-   Describe how, where, and under what circumstances one should acknowledge (cite) code.
+
+## Discovering open code
+
+What locations do you already know where you can find code?
+
+::: mylist
+</br>
+
+-   [Github](https://github.com/)
+-   [Gitlab](https://about.gitlab.com/)
+-   [Bitbucket](https://bitbucket.org/)
+-   [Papers with code](https://paperswithcode.com/)
+-   [The Journal of Open Source Software](https://joss.theoj.org/)
+-   [Stackoverflow](https://stackoverflow.com/)
+-   Reverse engineering packages
+-   [Example: Apollo 11 source code](https://github.com/chrislgarry/Apollo-11)
+:::
+
+## Software repositories {.scrollable}
+
+:::table_style
+
+|                             |                                        |                             |                                             |
+|------------------|------------------|------------------|------------------|
+| ![](imgs/softwarerepo1.png) | ![](imgs/softwarerepo2.png)            | ![](imgs/softwarerepo3.png) | ![](imgs/softwarerepo4.png)                 |
+| Software Heritage           | Open Source Development Network (OSDN) | SourceForge                 | Free and Open-Source Software Hub (FOSSHUB) |
+| ![](imgs/softwarerepo5.png) | ![](imgs/softwarerepo6.png)            | ![](imgs/softwarerepo7.png) | ![](imgs/softwarerepo8.jpg)                 |
+| Googlecode                  | Comprehensive Perl Archive Network     | PyPl                        | CRAN                                        |
+
+:::
+
+## Four General Considerations for Assessing Open Software
+
+</br>
+
+Software assessment criteria are similar, for any level of openness:
+
+</br>
+
+::: table_style
+| VALUE                 |                                                                  |
+|----------------------|--------------------------------------------------|
+| Functionality         | Will it be useful for your scientific problem?                   |
+| Interoperability      | How hard will it be to use?                                      |
+| Security: Is it safe? | Would using the software create a security risk?                 |
+| Licenses/restrictions | Can you use it? Is it legal to use the software in your project? |
+:::
+
+## Citing Open Source Code and Software
+
+::: incremental
+
+::: {.fragment .fade-in}
+When should open code be cited?
+
+:::
+
+-   It has played a critical part in your research
+-   It provides something novel
+-   It impacts the results of your analysis (image processing)
+
+::: {.fragment .fade-in}
+How should code be cited?
+:::
+
+-   Ideally, the code is lcoated in a long-term repository and tagged with a DOI.
+-   Packages often come with a paper that can be cited
+-   Packages also often come with a version tag that can be added to the citation.
+:::
+
+## Citing Open Source Code and Software:
+
+::: mylist
+
+::: {.fragment .fade-in}
+Software purchased off-the-shelf:
+:::
+
+-   ProductName. Version. ReleaseDate. Publisher. Location.
+-   SuperScience. 1.2. December 2012. ResearchSoftware. Edinburgh, UK.
+
+::: {.fragment .fade-in}
+Software downloaded from the web:
+:::
+
+-   ProductName. Version. ReleaseDate. Publisher. Location. DOIorURL. DownloadDate.
+-   OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. <http://sourceforge.net/projects/ogsa-dai>. 27/04/2012.
+
+::: {.fragment .fade-in}
+Software checked-out from a public repository:
+:::
+
+-   ProductName. Publisher. URL. CheckoutDate. RepositorySpecificCheckoutInformation.
+-   OGSA-DAI REST. OGSA-DAI Project. <http://sourceforge.net/projects/ogsa-dai>. 27/04/2012. Check-out: ogsa-dai/branck/ogsadai4.1/, revision 1657.
+:::
+
+::: footer
+<small>[Software Sustainability Institute](https://www.software.ac.uk/publication/how-cite-and-describe-software)</small>
+:::
+
+## Exercise: One concrete first step towards sharing code
+
+::: columns
+::: {.column width="60%"}
+<br>
+
+
+Think about a concrete example (research, project).
+
+</br>
+
+What are the two next concrete steps towards making your code (documentation) for this project share-able?
+
+
+:::
+
+::: {.column width="40%"}
+![](imgs/Think_Outside_the_Box_Idea_Flat_Icon_Vector.svg){width="500"}
+:::
+:::
+
+
+## Thank you so much!
+
+[Repo to this presentation]
+

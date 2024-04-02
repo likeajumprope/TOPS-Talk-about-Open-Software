@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+
+.reveal section p {
+  font-size: 30px !important;
+  text-align: left !important;
+  color: black !important;
+  }
+
+.reveal ul {
+  font-size: 25px !important;
+  text-align: left !important;
+  }
+  
+.table_style table {
+  font-size: 0.5em !important;
+  text-align: left !important;
+ }
+
+.mylist ul {
+  font-size: 25px !important;
+  text-align: left !important;
+  display: block !important;
+ }
+ 
+
+h1.title {
+  line-height: 120px;
+ }
+
+h2.author {
+  font-weight: normal;
+  line-height: 90px;
+ }
+ 
+.purple {
+  color: purple !important;
+ }
+
+
+ 
