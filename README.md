@@ -14,3 +14,5 @@ Links:
 [Nebula cohort](https://openlifesci.org/nebula/)
 
 [OLS Youtube](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA)
+
+[SLIDES](https://htmlpreview.github.io/?https://github.com/likeajumprope/TOPS-Talk-about-Open-Software/blob/main/Presentation.html)
