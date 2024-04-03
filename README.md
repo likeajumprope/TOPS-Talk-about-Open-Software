@@ -5,7 +5,7 @@ This repository contains the [SLIDES](https://htmlpreview.github.io/?https://git
 
 This presentation was created using Quarto and reveal.js in R.
 
-To reproduce this presentaion, clone this repository and open Presentation.html in your browser.
+To reproduce this presentation, clone this repository and open Presentation.html in your browser.
 Alternatively, you can also render Presentation.qmd. See also sessionInfo.md for all requirements.
 
 Links:
