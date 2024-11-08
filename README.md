@@ -1,4 +1,4 @@
-# Presentation on Open Software as Part of the OLS TOPS NASA Nebula Program
+# Presentation on Open Software as Part of the OLS TOPS NASA Nebula Program <a href="https://doi.org/10.5281/zenodo.14057496"><img src="https://zenodo.org/badge/780506716.svg" alt="DOI"></a>
 
 This repository contains the [SLIDES](https://htmlpreview.github.io/?https://github.com/likeajumprope/TOPS-Talk-about-Open-Software/blob/main/Presentation.html)
  on Open Sofware that were given as part of the OLS TOPS Nebula program.
