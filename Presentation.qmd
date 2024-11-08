@@ -308,23 +308,23 @@ What locations do you already know where you can find code?
 | ![](imgs/softwarerepo5.png) | ![](imgs/softwarerepo6.png)            | ![](imgs/softwarerepo7.png) | ![](imgs/softwarerepo8.jpg)                 |
 | Googlecode                  | Comprehensive Perl Archive Network     | PyPl                        | CRAN                                        |
 
-:::
+<!-- ::: -->
 
-## Four General Considerations for Assessing Open Software
+<!-- ## Four General Considerations for Assessing Open Software -->
 
-</br>
+<!-- </br> -->
 
-Software assessment criteria are similar, for any level of openness:
+<!-- Software assessment criteria are similar, for any level of openness: -->
 
-</br>
+<!-- </br> -->
 
-::: table_style
-| VALUE                 |                                                                  |
-|----------------------|--------------------------------------------------|
-| Functionality         | Will it be useful for your scientific problem?                   |
-| Interoperability      | How hard will it be to use?                                      |
-| Security: Is it safe? | Would using the software create a security risk?                 |
-| Licenses/restrictions | Can you use it? Is it legal to use the software in your project? |
+<!-- ::: table_style -->
+<!-- | VALUE                 |                                                                  | -->
+<!-- |----------------------|--------------------------------------------------| -->
+<!-- | Functionality         | Will it be useful for your scientific problem?                   | -->
+<!-- | Interoperability      | How hard will it be to use?                                      | -->
+<!-- | Security: Is it safe? | Would using the software create a security risk?                 | -->
+<!-- | Licenses/restrictions | Can you use it? Is it legal to use the software in your project? | -->
 :::
 
 ## Citing Open Source Code and Software
