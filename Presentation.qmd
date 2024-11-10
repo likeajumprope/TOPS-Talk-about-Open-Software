@@ -68,17 +68,22 @@ Open-source software:
 ## History of computing
 
 ::: columns
-::: {.column width="30%"}
+::: {.column width="25%"}
 ![Ada Lovelace (1815-1852)](imgs/Ada_Byron_aged_seventeen.jpg){height="320"}
 :::
 
-::: {.column width="30%"}
+::: {.column width="25%"}
 ![Grace Hopper (1906-1992)](imgs/Commodore_Grace_M_Hopper_USN.jpg){height="320"}
 :::
 
-::: {.column width="30%"}
+::: {.column width="25%"}
 ![Margaret Hamilton (born 1936)](imgs/Margaret_Hamilton_restoration.png){height="320"}
 :::
+
+::: {.column width="25%"}
+![Katherine Johnson (1918-2020)](imgs/440px-Katherine_Johnson_1983.jpg){height="320"}
+:::
+
 :::
 
 ## Principles behind open code - a bit of a manifesto {.scrollable}
