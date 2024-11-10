@@ -44,7 +44,7 @@ After completing this lesson, you should be able to:
 Code:
 :::
 
--   structured language.
+-   structured way of conveying information.
 -   term not necessarily computer-specific.
 -   high level code that a human can understand has to be compiled by a compiler into machine language (low level code) that the computer can understand.
 
@@ -53,6 +53,7 @@ Software:
 :::
 
 -   collection of programs, data, scripts and code that are bundled together and executed together.
+-   Software can be open and closed.
 
 ::: {.fragment .fade-in}
 Open-source software:
@@ -110,7 +111,7 @@ Open-source software:
 
 :::
 
-## Types of software - is what I write, software? {.scrollable}
+## Types of software - is what I write, software/code? {.scrollable}
 
 </br> You might have encountered different types of software:
 </br>
@@ -124,7 +125,7 @@ Open-source software:
 | Libraries                           | generic tools for implementing well-known algorithms, providing statistical analysis, or visualization which are incorporated in other software categories; small                                                                                 | sci-kit learn, numpy, pandas, ggplot, etc.                                                                |
 | Modelling and Simulation Software   | implements solutions to mathematical equations given input data and boundary conditions, or infers models from data                                                                                                                               | OpenFoam, Matlab libraries, Stan                                                                          |
 | Analysis Software                   | developed to manipulate measurements or model results to visualize or gain understanding                                                                                                                                                          | R, SPSS,                                                                                                  |
-| Single-Use Utility Software         | written for use in unique instances, such as making a plot for a paper, or manipulating data in a specific way. This code often uses libraries for analysis, plotting, or reading data; gets included into Open Science and Data Management Plans | papers for a plot, data analysis script                                                                   |
+| Single-Use Utility Software         | written for use in unique instances, such as making a plot for a paper, or manipulating data in a specific way. This code often uses libraries for analysis, plotting, or reading data; gets included into Open Science and Data Management Plans | plots for a paper, data analysis script                                                                   |
 :::
 
 ## Exercise: Benefits and challenges of sharing code
@@ -204,8 +205,8 @@ If not:
 
 ::: {.column width="70%"}
 -   Get a github account ([Learn how to use git](https://git-course.netlify.app/)).
--   Make sure your analysis software is numbered, and well documented.
--   Upload scripts to Github.
+-   Make sure your code/software is coherently structured, and well documented.
+-   Upload code/software to Github.
 -   Create a short Readme.md, describing the project and the execution of the code.
 -   Add license.
 -   Optional: Share your data if possible (if not, only share code).
@@ -215,7 +216,7 @@ If not:
 
 ## When Not to Share
 
-There are valid reasons that restrict a researcher's ability to share their complete code or software packages. Some of these reasons may include: </br>
+There are valid reasons that restrict a researcher's ability to share their complete code or software. Some of these reasons may include: </br>
 
 -   The code contains personal data.
 
@@ -244,7 +245,7 @@ Licenses can range from restrictive to liberal (copy-left).
 
 ## Software Management plans
 
-The best way to share code.
+The best way to work with software.
 
 -   Document that describes how a specific software project is developed, maintained, and curated.
 
@@ -430,7 +431,7 @@ What are the two next concrete steps towards making your code (documentation) fo
 
 ```{r, echo=TRUE}
 a = "Thank you!"
-b = "Any Questions?"
+b = "What Questions Do You Have?"
 
 print(paste(a, b))
 ```
