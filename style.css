@@ -21,10 +21,14 @@
   text-align: left !important;
   display: block !important;
  }
- 
+
+h2 {
+    word-spacing: 10px !important;; /* Set your desired spacing */
+}
 
 h1.title {
   line-height: 120px;
+  word-spacing: 30px;
  }
 
 h2.author {
