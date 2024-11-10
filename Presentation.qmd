@@ -84,38 +84,41 @@ Open-source software:
 ::: {.column width="25%"}
 ![Katherine Johnson (1918-2020)](imgs/440px-Katherine_Johnson_1983.jpg){height="320"}
 :::
-
 :::
 
 ## Principles behind open code - a bit of a manifesto {.scrollable}
 
 ::: table_style
 <!-- | VALUE                 |                                                                                                                                                                                                                                                                                                                                                                             | -->
+
 <!-- |------------------|------------------------------------------------------| -->
+
 <!-- | Transparency          | Whether you are developing software or solving a research problem, we all have access to the information and materials necessary for doing our best work. When these materials are accessible, we can build upon each other's ideas and discoveries. We can make more effective decisions and understand how those decisions affect us.                                     | -->
+
 <!-- | Collaboration         | When we're free to participate, we can enhance each other's work in unanticipated ways. When we can modify what others have shared, we unlock new possibilities. By initiating new projects together, we can solve problems that no one can solve alone. And when we implement open standards, we enable others to contribute in the future.                                | -->
+
 <!-- | Share early and often | Rapid prototypes can lead to rapid discoveries. An iterative approach leads to better solutions faster. When you're free to experiment, you can look at problems in new ways and seek answers in new places. You can learn by doing.                                                                                                                                        | -->
+
 <!-- | Inclusive             | Good ideas can come from anywhere, and the best ideas should win. Only by including diverse perspectives in our conversations can we be certain we've identified the best ideas, and good decision-makers continually seek those perspectives. We may not operate by consensus, but successful work determines which projects gather support and effort from the community. | -->
+
+```{=html}
 <!-- | Community             | Communities form when different people unite around a common purpose. Shared values guide decision making, and community goals supersede individual interests and agendas.                                      
 | -->
-
+```
 </br>
 
-| **Principle**           | **Description**                                                                                                                                                                              |
-|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Transparency**         | Accessible materials enable everyone to build on each other's work, make informed decisions, and understand their impact.                                                                   |
-| **Collaboration**        | Open participation and shared projects unlock new possibilities. Open standards ensure contributions can continue long-term.                                                                |
-| **Share Early & Often**  | Early sharing, iterative work and rapid prototypes lead to faster discoveries and better solutions. Experimentation and getting early feedback fosters innovation.                          |
-| **Inclusivity**          | The best ideas come from diverse perspectives. Including varied voices ensures better decisions and allows the strongest ideas to thrive.                                                    |
-| **Community**            | Communities thrive on shared goals and values, where collective purpose outweighs individual interests.                                                                                      |
-
+| **Principle**           | **Description**                                                                                                                                                    |
+|--------------|----------------------------------------------------------|
+| **Transparency**        | Accessible materials enable everyone to build on each other's work, make informed decisions, and understand their impact.                                          |
+| **Collaboration**       | Open participation and shared projects unlock new possibilities. Open standards ensure contributions can continue long-term.                                       |
+| **Share Early & Often** | Early sharing, iterative work and rapid prototypes lead to faster discoveries and better solutions. Experimentation and getting early feedback fosters innovation. |
+| **Inclusivity**         | The best ideas come from diverse perspectives. Including varied voices ensures better decisions and allows the strongest ideas to thrive.                          |
+| **Community**           | Communities thrive on shared goals and values, where collective purpose outweighs individual interests.                                                            |
 :::
 
 ## Types of software - is what I write, software/code? {.scrollable}
 
-</br> You might have encountered different types of software:
-</br>
-
+</br> You might have encountered different types of software: </br>
 
 ::: table_style
 | Software type                       | Description                                                                                                                                                                                                                                       | Example                                                                                                   |
@@ -132,7 +135,6 @@ Open-source software:
 
 ::: columns
 ::: {.column width="60%"}
-
 ::: {.fragment .fade-in}
 Benefits and challenges of sharing code
 :::
@@ -148,17 +150,12 @@ Benefits and challenges of sharing code
 
 -   If you find a challenge of sharing code: Can you come up with a solution?
 :::
-
 :::
 
 ::: {.column width="40%"}
 ![](imgs/Think_Outside_the_Box_Idea_Flat_Icon_Vector.svg){width="500"}
 :::
 :::
-
-
-
-
 
 ## Exercise: Benefits and challenges of sharing code
 
@@ -175,7 +172,7 @@ Benefits:
 
 -   results of papers are reproducible
 
-- advancing scientific progress in general
+-   advancing scientific progress in general
 :::
 
 ::: {.fragment .fade-in}
@@ -216,6 +213,8 @@ If not:
 
 ## When Not to Share
 
+::: columns
+::: {.column width="60%"}
 There are valid reasons that restrict a researcher's ability to share their complete code or software. Some of these reasons may include: </br>
 
 -   The code contains personal data.
@@ -225,6 +224,14 @@ There are valid reasons that restrict a researcher's ability to share their comp
 -   The code incorporates intellectual property or patented data and information.
 
 -   Institutional policies or organizational regulations do not permit the sharing of code.
+:::
+
+::: {.column width="40%"}
+![](imgs/open-vs-close-research-with-text.jpg){height="280"}
+<small>This illustration is created by Scriberia with The Turing Way community, used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807</small>
+
+:::
+:::
 
 ## Licensing code
 
@@ -236,7 +243,7 @@ Licenses can range from restrictive to liberal (copy-left).
 
 ::: table_style
 | Type of license               | Permissions                                                        | Examples             |
-|------------------|-----------------------------------|------------------|
+|-------------------|-----------------------------------|-------------------|
 | Public domain                 | Grants all rights                                                  | CCO                  |
 | Permissive license            | Grants use rights, forbids almost nothing (allows proprietization) | BSD, MIT, Apache     |
 | Copyleft (protective license) | Grants use rights, forbids proprietization                         | GPL, AGPL            |
@@ -318,8 +325,7 @@ What locations do you already know where you can find code?
 
 ## Software repositories {.scrollable}
 
-:::table_style
-
+::: table_style
 |                             |                                        |                             |                                             |
 |------------------|------------------|------------------|------------------|
 | ![](imgs/softwarerepo1.png) | ![](imgs/softwarerepo2.png)            | ![](imgs/softwarerepo3.png) | ![](imgs/softwarerepo4.png)                 |
@@ -338,21 +344,25 @@ What locations do you already know where you can find code?
 <!-- </br> -->
 
 <!-- ::: table_style -->
+
 <!-- | VALUE                 |                                                                  | -->
+
 <!-- |----------------------|--------------------------------------------------| -->
+
 <!-- | Functionality         | Will it be useful for your scientific problem?                   | -->
+
 <!-- | Interoperability      | How hard will it be to use?                                      | -->
+
 <!-- | Security: Is it safe? | Would using the software create a security risk?                 | -->
+
 <!-- | Licenses/restrictions | Can you use it? Is it legal to use the software in your project? | -->
 :::
 
 ## Citing Open Source Code and Software
 
 ::: incremental
-
 ::: {.fragment .fade-in}
 When should open code be cited?
-
 :::
 
 -   It has played a critical part in your research
@@ -371,7 +381,6 @@ How should code be cited?
 ## Citing Open Source Code and Software:
 
 ::: mylist
-
 ::: {.fragment .fade-in}
 Software purchased off-the-shelf:
 :::
@@ -404,14 +413,11 @@ Software checked-out from a public repository:
 ::: {.column width="60%"}
 <br>
 
-
 Think about a concrete example (research, project).
 
 </br>
 
 What are the two next concrete steps towards making your code (documentation) for this project share-able?
-
-
 :::
 
 ::: {.column width="40%"}
@@ -419,15 +425,13 @@ What are the two next concrete steps towards making your code (documentation) fo
 :::
 :::
 
-
 ## Thank you so much!
 
 </br></br>
 
 [This presentation is reproducible!](https://github.com/likeajumprope/TOPS_talk_open_software)
 
-</br>
-</br>
+</br> </br>
 
 ```{r, echo=TRUE}
 a = "Thank you!"
@@ -438,5 +442,4 @@ print(paste(a, b))
 
 ::: footer
 Contact me on Github, X: (at)likeajumprope
-::: 
-
+:::
