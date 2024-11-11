@@ -247,6 +247,28 @@ Licenses can range from restrictive to liberal (copy-left).
 | Proprietary license           | Traditional use of copyright; no rights need be granted            | Proprietary software |
 :::
 
+## Make your code citable
+
+::: columns
+
+::: {.column width="40%"}
+- Add a digital object identifier (DOI) to your repository, for example using Zenodo
+
+- Add Citation.cff file to your repository
+:::
+
+::: {.column width="60%"}
+![](imgs/Github_cite.png)
+:::
+::: 
+
+
+::: footer
+<small> [Source: Github.com](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) </small>
+:::
+
+
+
 ## Software Management plans
 
 The best way to work with software.
@@ -398,6 +420,14 @@ Software checked-out from a public repository:
 
 -   ProductName. Publisher. URL. CheckoutDate. RepositorySpecificCheckoutInformation.
 -   OGSA-DAI REST. OGSA-DAI Project. <http://sourceforge.net/projects/ogsa-dai>. 27/04/2012. Check-out: ogsa-dai/branck/ogsadai4.1/, revision 1657.
+:::
+
+::: {.fragment .fade-in}
+Software checked-out from a Github with a DOI:
+:::
+
+-   Author. ProductName. Version. [Type of Work]. DOI/URL.
+-   Lisa, M., & Bot, H. (2017). My Research Software (Version 2.0.4) [Computer software]. https://doi.org/10.5281/zenodo.1234.
 :::
 
 ::: footer
