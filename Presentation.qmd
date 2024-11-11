@@ -271,17 +271,21 @@ Licenses can range from restrictive to liberal (copy-left).
 
 ## Software Management plans
 
+::: columns
+::: {.column width="40%"}
+
 The best way to work with software.
 
 -   Document that describes how a specific software project is developed, maintained, and curated.
-
 -   Written by the developers, maintainers, and/or other stakeholders of a software project.
+-   Goal of an SMP is to ensure that the software is usable and maintainable in the long term.
 
-    Goal of an SMP is to ensure that the software is usable and maintainable in the long term.
-
-## Software Management plans
+:::
+::: {.column width="60%"}
 
 ![](imgs/Software_Management_plan.png){style="center" width="462"}
+:::
+:::
 
 ::: footer
 <small> [Source: E-Science Center Netherlands](https://zenodo.org/records/7248877) </small>
@@ -322,7 +326,7 @@ Learning Objectives
 After completing this lesson, you should be able to:
 
 -   Describe the process of using open code and know some key repositories to find open code.
--   Describe the four key considerations when assessing open software: functionality, interoperability, security, and licenses.
+
 -   Describe how, where, and under what circumstances one should acknowledge (cite) code.
 
 ## Discovering open code
@@ -397,7 +401,7 @@ How should code be cited?
 -   Packages also often come with a version tag that can be added to the citation.
 :::
 
-## Citing Open Source Code and Software:
+## Citing Open Source Code and Software: {.scrollable}
 
 ::: mylist
 ::: {.fragment .fade-in}
