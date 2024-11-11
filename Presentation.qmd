@@ -373,7 +373,7 @@ When should open code be cited?
 How should code be cited?
 :::
 
--   Ideally, the code is lcoated in a long-term repository and tagged with a DOI.
+-   Ideally, the code is located in a long-term repository and tagged with a DOI.
 -   Packages often come with a paper that can be cited
 -   Packages also often come with a version tag that can be added to the citation.
 :::
