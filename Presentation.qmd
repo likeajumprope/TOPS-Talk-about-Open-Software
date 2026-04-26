@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Open Code"
 author: "Dr. Johanna Bayer"
-institute: "Donders Institute for Brain, Cognition and Behaviour"
+institute: "McGill University, Canada"
 format: 
   revealjs:
     incremental: true
@@ -13,8 +13,8 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
--   Post Doctoral Fellow at the Donders Institute for Brain, Congition and Behaviour, the Netherlands.\
--   Using machine learning models to create normative models on large neuroimaging data sets.
+-   Post Doctoral Fellow at McGill University, Canada.\
+-   Developing and using machine learning models to create normative models on large neuroimaging data sets.
 -   Studying computer science.\
 -   Involved in several open source and open science initiatives (OSSIG, DataTalks.club, TOPS, scikit-learn, Brainhack.org, The Turing Way).
 -   Cat lover.\
@@ -37,6 +37,7 @@ After completing this lesson, you should be able to:
 -   Define open-source software and distinguish it from closed-source software.
 -   List common benefits and challenges to the production of open code and describe how researchers can respond to some of the challenges while maximizing openness when appropriate.
 -   Describe the function and purpose of a Software Management Plan, and its utility as a guidebook for everyone involved in a scientific project.
+
 
 ## What is Code vs Software? {.incremental .scrollable}
 
@@ -89,21 +90,6 @@ Open-source software:
 ## Principles behind open code - a bit of a manifesto {.scrollable}
 
 ::: table_style
-<!-- | VALUE                 |                                                                                                                                                                                                                                                                                                                                                                             |  -->
-
-<!-- |------------------|------------------------------------------------------|  -->
-
-<!--  | Transparency          | Whether you are developing software or solving a research problem, we all have access to the information and materials necessary for doing our best work. When these materials are accessible, we can build upon each other's ideas and discoveries. We can make more effective decisions and understand how those decisions affect us.                                     | --> 
-
-<!--  | Collaboration         | When we're free to participate, we can enhance each other's work in unanticipated ways. When we can modify what others have shared, we unlock new possibilities. By initiating new projects together, we can solve problems that no one can solve alone. And when we implement open standards, we enable others to contribute in the future.                                |  -->
-
-<!--  | Share early and often | Rapid prototypes can lead to rapid discoveries. An iterative approach leads to better solutions faster. When you're free to experiment, you can look at problems in new ways and seek answers in new places. You can learn by doing.                                                                                                                                        |  -->
-
-<!-- | Inclusive             | Good ideas can come from anywhere, and the best ideas should win. Only by including diverse perspectives in our conversations can we be certain we've identified the best ideas, and good decision-makers continually seek those perspectives. We may not operate by consensus, but successful work determines which projects gather support and effort from the community. | -->
-
-<!-- | Community             | Communities form when different people unite around a common purpose. Shared values guide decision making, and community goals supersede individual interests and agendas. -->
-
-
 | **Principle**           | **Description**                                                                                                                                                    |
 |--------------|----------------------------------------------------------|
 | **Transparency**        | Whether you are developing software or solving a research problem, we all have access to the information and materials necessary for doing our best work. When these materials are accessible, we can build upon each other's ideas and discoveries. We can make more effective decisions and understand how those decisions affect us                                          |
@@ -115,7 +101,7 @@ Open-source software:
 
 ## Types of software - is what I write, software/code? {.scrollable}
 
-</br> You might have encountered different types of software: </br>
+<br> You might have encountered different types of software: <br>
 
 ::: table_style
 | Software type                       | Description                                                                                                                                                                                                                                       | Example                                                                                                   |
@@ -188,7 +174,7 @@ Challenges:
 
 ## A simple way of getting started to share your code
 
-Ideally, you have been commiting code and software to git and Github as the project evolves.
+Ideally, you have been committing code and software to git and Github as the project evolves.
 
 If not:
 
@@ -212,7 +198,7 @@ If not:
 
 ::: columns
 ::: {.column width="60%"}
-There are valid reasons that restrict a researcher's ability to share their complete code or software. Some of these reasons may include: </br>
+There are valid reasons that restrict a researcher's ability to share their complete code or software. Some of these reasons may include: <br>
 
 -   The code contains personal data.
 
@@ -297,11 +283,11 @@ The best way to work with software.
 ::: {.column width="60%"}
 <br>
 
--   At the moment, all code on github is being used to train LMMs.
+-   At the moment, all code on github is being used to train LLMs.
 
 -   [Latest example: The Stack by the HuggingFace](https://huggingface.co/spaces/bigcode/in-the-stack)
 
--   Feeding code into ChatGPT (unpaid version) incorporates the code into the training data base.
+-   Feeding code into ChatGPT (unpaid version) incorporates the code into the training database.
 :::
 
 ::: {.column width="40%"}
@@ -311,10 +297,10 @@ The best way to work with software.
 
 ## Key Takeaways: Relating Principles to Benefits and Challenges
 
-</br>
+<br>
 
 ::: {.incremental style=".mylist"}
--   Making software more open has benefits and challenges, which are related. </br>
+-   Making software more open has benefits and challenges, which are related. <br>
 -   Greater benefits typically come with greater challenges.
 -   In most cases, individual scientists and society will both benefit from more open software.
 :::
@@ -334,7 +320,7 @@ After completing this lesson, you should be able to:
 What locations do you already know where you can find code?
 
 ::: mylist
-</br>
+<br>
 
 -   [Github](https://github.com/)
 -   [Gitlab](https://about.gitlab.com/)
@@ -360,11 +346,11 @@ What locations do you already know where you can find code?
 
 <!-- ## Four General Considerations for Assessing Open Software -->
 
-<!-- </br> -->
+<!-- <br> -->
 
 <!-- Software assessment criteria are similar, for any level of openness: -->
 
-<!-- </br> -->
+<!-- <br> -->
 
 <!-- ::: table_style -->
 
@@ -423,7 +409,7 @@ Software checked-out from a public repository:
 :::
 
 -   ProductName. Publisher. URL. CheckoutDate. RepositorySpecificCheckoutInformation.
--   OGSA-DAI REST. OGSA-DAI Project. <http://sourceforge.net/projects/ogsa-dai>. 27/04/2012. Check-out: ogsa-dai/branck/ogsadai4.1/, revision 1657.
+-   OGSA-DAI REST. OGSA-DAI Project. <http://sourceforge.net/projects/ogsa-dai>. 27/04/2012. Check-out: ogsa-dai/branch/ogsadai4.1/, revision 1657.
 :::
 
 ::: {.fragment .fade-in}
@@ -446,7 +432,7 @@ Software checked-out from a Github with a DOI:
 
 Think about a concrete example (research, project).
 
-</br>
+<br>
 
 What are the two next concrete steps towards making your code (documentation) for this project share-able?
 :::
@@ -458,11 +444,11 @@ What are the two next concrete steps towards making your code (documentation) fo
 
 ## Thank you so much!
 
-</br></br>
+<br><br>
 
 [This presentation is reproducible!](https://github.com/likeajumprope/TOPS_talk_open_software)
 
-</br> </br>
+<br> <br>
 
 ```{r, echo=TRUE}
 a = "Thank you!"
