@@ -367,6 +367,39 @@ What locations do you already know where you can find code?
 <!-- | Licenses/restrictions | Can you use it? Is it legal to use the software in your project? | -->
 :::
 
+## What makes a good README?
+
+::: columns
+::: {.column width="55%"}
+The README is the first thing anyone sees when they visit your repository — it determines whether your code gets used.
+
+<br>
+
+A good README includes:
+
+::: mylist
+-   **Title and description** — what the project does and why
+-   **Installation instructions** — dependencies and setup steps
+-   **Usage example** — at least one working, copy-pasteable example
+-   **Citation** — how to credit the software in a paper
+-   **License** — what others are allowed to do with it
+-   **Contact / contribution info** — who to reach and how to contribute
+:::
+:::
+
+::: {.column width="45%"}
+::: {.fragment .fade-in}
+A README without a usage example is like a paper without an abstract: technically complete, but practically useless.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+Rule of thumb: if a new lab member couldn't run your code from the README alone, it needs more work.
+:::
+:::
+:::
+
 ## Citing Open Source Code and Software
 
 ::: incremental
