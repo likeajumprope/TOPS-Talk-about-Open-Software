@@ -596,9 +596,9 @@ Rule of thumb: if a new lab member couldn't run your code from the README alone,
 :::
 
 ::: mylist
-- AI Company Name. (year). Tool Name/Model in Italics and Title Case [Description; e.g., Large language model]. URL of the tool.
+-   AI Company Name. (year). Tool Name/Model in Italics and Title Case [Description; e.g., Large language model]. URL of the tool.
 
-- Anthropic. (2025). Claude 4 Sonnet [Large language model]. https://claude.ai/new
+-   Anthropic. (2025). Claude 4 Sonnet [Large language model]. https://claude.ai/new
 :::
 
 ::: {.fragment .fade-in}
@@ -606,9 +606,9 @@ Rule of thumb: if a new lab member couldn't run your code from the README alone,
 :::
 
 ::: mylist
-- AI Company Name. (year, month day). Title of chat in italics [Description, such as Generative AI chat]. Tool Name/Model. URL of the chat
+-   AI Company Name. (year, month day). Title of chat in italics [Description, such as Generative AI chat]. Tool Name/Model. URL of the chat
 
-- Anthropic. (2025, May 20). Essential grammar topics for high school graduates [Generative AI chat]. Claude Sonnet 4. https://claude.ai/share/329173b2-ec93-4663-ac68-4f65ea4f166d
+-   Anthropic. (2025, May 20). Essential grammar topics for high school graduates [Generative AI chat]. Claude Sonnet 4. https://claude.ai/share/329173b2-ec93-4663-ac68-4f65ea4f166d
 :::
 ::: 
 
