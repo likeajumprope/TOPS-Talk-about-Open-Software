@@ -12,7 +12,7 @@ Links:
 
 [NASA Transform to Open Science (TOPS) program](https://nasa.github.io/Transform-to-Open-Science/)
 
-[Nebula cohort]([https://openlifesci.org/nebula/](https://github.com/MetaDocencia/NASA_TOPS-OS101))
+[Nebula cohort](https://openlifesci.org/nebula/](https://github.com/MetaDocencia/NASA_TOPS-OS101))
 
 [OLS Youtube](https://www.youtube.com/channel/UCs12-ZgnDJOWIWN3Vo1XHXA)
 
