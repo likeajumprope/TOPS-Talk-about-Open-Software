@@ -311,12 +311,12 @@ LLM-generated code and licensing:
 ::: {.fragment .fade-in }
 **Should I use LLMs for coding? YES.**
 
-::: mylist
+
 ::: {.fragment .fade-in}
 
 LLMs are new: Everyone is learning how to use them. You can be a pioneer in your field by figuring out how to use them effectively and sharing your insights with others.
 
-LLMs are fantastic teachers — try asking:
+LLMs are fantastic teachers
 
 -   *"Can you explain this codebase to me?"*
 -   *"What does this function do?"*
@@ -342,7 +342,9 @@ LLMs are fantastic teachers — try asking:
 ::: {.fragment .fade-in}
 **LLMs as a leveler:**
 
-Researchers without a formal CS background, non-native English speakers, and those from under-resourced institutions can now write and document code more confidently — a genuine democratization of scientific computing.
+::: mylist
+- Researchers without a formal CS background, non-native English speakers, and those from under resourced institutions can now write and document code more confidently
+:::
 :::
 
 ::: {.fragment .fade-in}
