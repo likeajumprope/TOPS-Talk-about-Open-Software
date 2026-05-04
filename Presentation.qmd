@@ -2,11 +2,12 @@
 title: "Introduction to Open Code"
 author: "Dr. Johanna Bayer"
 institute: "McGill University, Canada"
-format: 
+format:
   revealjs:
     incremental: true
     theme: sky
     css: style.css
+    embed-resources: true
 ---
 
 ## About myself
