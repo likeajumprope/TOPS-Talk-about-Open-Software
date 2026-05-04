@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Open Code"
 author: "Dr. Johanna Bayer"
-institute: "McGill University, Canada"
+institute: "Donders Institute for Brain, Cognition and Behaviour, Radboud University, The Netherlands"
 format:
   revealjs:
     incremental: true
@@ -14,7 +14,7 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
--   Post Doctoral Fellow at McGill University, Canada.\
+-   Post Doctoral Fellow at Donders Institute for Brain, Cognition and Behaviour, Radboud University, The Netherlands.\
 -   Developing and using machine learning models to create normative models on large neuroimaging data sets.
 -   Studying computer science.\
 -   Involved in several open source and open science initiatives (OSSIG, DataTalks.club, TOPS, scikit-learn, Brainhack.org, The Turing Way).
@@ -361,7 +361,7 @@ LLMs are fantastic teachers
 :::
 :::
 
-## Tension between openness and LLMs
+## Tension between openness and LLMs {.scrollable}
 
 ::: columns
 ::: {.column width="60%"}
@@ -384,15 +384,14 @@ LLM output is probabilistic, not deterministic — unlike traditional code:
 -   Test and describe what the code actually does.
 :::
 :::
-
 :::
+
 
 ::: {.column width="40%"}
 
 ::: {.fragment .fade-in}
-> Treat LLM-generated code like code from Stack Overflow: a useful starting point, but you are responsible for understanding and validating it.
+- Treat LLM-generated code like code from Stack Overflow: a useful starting point, but you are responsible for understanding and validating it.
 :::
-
 :::
 :::
 
