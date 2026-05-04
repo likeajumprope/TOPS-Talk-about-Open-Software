@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Open Code"
 author: "Dr. Johanna Bayer"
-institute: "Donders Institute for Brain, Cognition and Behaviour, Radboud University, The Netherlands"
+institute: "McGill University, CA, Donders Institute, NL"
 format:
   revealjs:
     incremental: true
@@ -14,7 +14,7 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
--   Post Doctoral Fellow at Donders Institute for Brain, Cognition and Behaviour, Radboud University, The Netherlands.\
+-   Post Doctoral Fellow at McGill University, CA, Donders Institute, NL.\
 -   Developing and using machine learning models to create normative models on large neuroimaging data sets.
 -   Studying computer science.\
 -   Involved in several open source and open science initiatives (OSSIG, DataTalks.club, TOPS, scikit-learn, Brainhack.org, The Turing Way).
